@@ -25,7 +25,8 @@ Run the script with the following command:
 
 python script.py C:\Users\user\Downloads\SuadeTask FSA029-Sample-Full.xml
 
-# Reflections
+# The extra mile
+
 ### (a) What causes it to fail schema validation? Why do you think the regulator has included a valid file in their examples?
 Reason for failure:
 The XML contains multiple sections under the <Capital> element, specifically <IncorporatedEntities> and <PartnershipsSoleTraders>.
