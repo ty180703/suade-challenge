@@ -19,7 +19,7 @@ Run the script with the following command:
   ```bash
   python script.py <directory> <xml_file>
 ```
-ps: dont forget the space between dir and xml_file.
+**ps: dont forget the space between dir and xml_file.**
 
 ### Example:
 
