@@ -16,8 +16,8 @@ This script validates XML files against the provided XSD schema. It checks if th
 Place your XML file(s) (e.g., FSA029-Sample-Full.xml or FSA029-Sample-Valid.xml) and the Python script in the same directory.
 Open a terminal or command prompt and navigate to the directory containing the script.
 Run the script with the following command:
-
-python script.py <directory> <xml_file>
+  ```bash
+  python script.py <directory> <xml_file>
 ps: dont forget the space between dir and xml_file.
 
 ### Example:
@@ -40,6 +40,7 @@ To fix the file and pass the schema validation, you need to ensure that only one
 <IncorporatedEntities>
 <PartnershipsSoleTraders>
 <LLPs>
+  
 ### (c) Why do you think the regulator has included an invalid file in their examples?
 The inclusion of an invalid file in the regulator's examples is likely intended to ensure that their validation code is working correctly.
 By including a file that fails validation, they can demonstrate that the validation process catches errors and provides the correct feedback. 
